@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: #f3f4f6;
+  font-family: 'Inter', sans-serif;
+}
+
+.app-container {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+h1 {
+  color: #2563eb;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+input[type="file"] {
+  margin-right: 1rem;
+}
+
+button {
+  transition: background 0.2s;
+}
+
+button:active {
+  background: #1e40af;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.response-box {
+  min-height: 60px;
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #334155;
+}
+
+.error-message {
+  color: #dc2626;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
